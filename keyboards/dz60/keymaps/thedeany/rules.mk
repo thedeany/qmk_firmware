@@ -1,6 +1,7 @@
 # Build Options
 #   comment out to disable the options.
 #
+LTO_ENABLE = yes
 BOOTMAGIC_ENABLE = yes	# Virtual DIP switch configuration(+1000)
 MOUSEKEY_ENABLE = no	# Mouse keys(+4700)
 EXTRAKEY_ENABLE = yes	# Audio control and System control(+450)
@@ -12,6 +13,7 @@ BACKLIGHT_ENABLE = yes  # Enable keyboard backlight functionality
 AUDIO_ENABLE = no
 RGBLIGHT_ENABLE = yes
 COMBO_ENABLE = yes
+# UNICODE_ENABLE = yes
 
 LAYOUTS = 60_ansi 60_iso 60_hhkb
 
